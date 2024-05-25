@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
+import phones from '../../public/phones.png'
 
 export default function GetApp() {
 	return (
@@ -32,7 +33,7 @@ export default function GetApp() {
 				</div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Image src='/phones.png' alt="phones" width={550} height={870}/>
+          <Image src={phones} alt="phones" width={550} height={870}/>
         </div>
 			</div>
 		</section>

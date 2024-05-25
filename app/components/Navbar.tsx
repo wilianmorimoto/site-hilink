@@ -13,7 +13,7 @@ const Navbar = () => {
 		<nav className="flexBetween max-container padding-container relative z-30 py-5">
 			<Link href="/">
 				<Image
-					src="/hilink-logo.svg"
+					src="./hilink-logo.svg"
 					width={74}
 					height={29}
 					alt="Logo Hilink"
@@ -40,7 +40,7 @@ const Navbar = () => {
 			</div>
 
 			<Image
-				src="menu.svg"
+				src="./menu.svg"
 				alt="menu"
 				width={32}
 				height={32}

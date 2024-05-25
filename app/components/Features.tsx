@@ -1,5 +1,6 @@
 import { FEATURES } from "@/constants";
 import Image from "next/image";
+import phone from '../../public/phone.png'
 
 export default function Features() {
 	return (
@@ -7,7 +8,7 @@ export default function Features() {
 			<div className="max-container padding-container flex relative w-full justify-end">
 				<div className="flex flex-1 lg:min-h-[900px]">
 					<Image
-						src="/phone.png"
+						src={phone}
 						alt="phone"
 						width={440}
 						height={1000}
@@ -18,7 +19,7 @@ export default function Features() {
 				<div className="z-20 flex w-full flex-col lg:w-[60%]">
 					<div className="relative">
 						<Image
-							src="/camp.svg"
+							src="./camp.svg"
 							alt="camp"
 							width={50}
 							height={50}
