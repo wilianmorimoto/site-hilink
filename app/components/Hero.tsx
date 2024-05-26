@@ -50,7 +50,7 @@ export default function Hero() {
 					<Button
 						type="button"
 						title="How we work?"
-						icon="/play.svg"
+						icon="../../public/play.svg"
 						variant="btn_white_text"
 					/>
 				</div>

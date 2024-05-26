@@ -18,14 +18,14 @@ export default function GetApp() {
 						<Button
 							type="button"
 							title="AppStore"
-							icon="/apple.svg"
+							icon="../../public/apple.svg"
 							variant="btn_white"
 							full
 						/>
 						<Button
 							type="button"
 							title="PlayStore"
-							icon="/android.svg"
+							icon="../../public/android.svg"
 							variant="btn_dark_green_outline"
 							full
 						/>
